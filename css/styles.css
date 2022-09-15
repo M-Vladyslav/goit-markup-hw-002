@@ -8,11 +8,12 @@
   --mud-white-color: #f5f4fa;/*image background*/
   --dark-white-color: #f5f5f5;/*body backgroun*/
   --mail-color: rgba(255, 255, 255, 0.6); /* цвет tel,mail*/
+
 }
 
 body {
   font-family: 'Roboto', san-serif;
-  background-color: #f5f5f5;
+  background-color: var(--dark-white-color);
 }
 .list {
   list-style: none;
@@ -21,7 +22,7 @@ body {
   text-decoration: none;
 }
 .title {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 .Web-header {
   font-family: 'Raleway';
@@ -30,7 +31,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .Studio-header {
   font-family: 'Raleway';
@@ -39,7 +40,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--dark-grey-color);
 }
 
 .navigation-header-link {
@@ -47,29 +48,29 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--dark-grey-color);
 }
 .contact-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .contact-mail:hover,
 .contact-mail:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .contact-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--light-grey-color);
 }
 .contact-tel:hover,
 .contact-tel:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .btn {
   font-family: 'inherit';
@@ -79,14 +80,14 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--dark-grey-color);
 }
 .btn:hover,
 .btn:focus {
-  color: #ffffff;
+  color:var(--white-color);
 }
 .site-footer {
-  background: #2f303a;
+  background: var(--grey-color);
 }
 .Web {
   font-family: 'Raleway';
@@ -95,7 +96,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color:var(--blue-color);
 }
 .Studio {
   font-family: 'Raleway';
@@ -104,11 +105,11 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .google-map:hover,
 .google-map:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .google-map {
   font-style: normal;
@@ -116,7 +117,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color:var(--white-color);
 }
 
 .contact-email {
@@ -125,11 +126,11 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--mail-color);
 }
 .contact-email:hover,
 .contact-email:focus {
-  color: #2196f3;
+  color:var(--blue-color);
 }
 .contact-phone {
   font-style: normal;
@@ -137,11 +138,11 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--mail-color)
 }
 .contact-phone:hover,
 .contact-phone:focus {
-  color: #2196f3;
+  color:var(--blue-color);
 }
 .slogan-name {
   font-weight: 900;
@@ -150,10 +151,10 @@ body {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color:var(--white-color);
 }
 .title-slogan {
-  background: #2f303a;
+  background:var(--grey-color);
 }
 .button-order {
   font-weight: 700;
@@ -161,8 +162,8 @@ body {
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white-color);
+  background:var(--blue-color);
 }
 .soft-skills-item {
   font-weight: 700;
@@ -170,7 +171,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color:var(--dark-grey-color);
 }
 .soft-skills-discription {
   font-weight: 400;
@@ -178,7 +179,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--light-grey-color);
 }
 .image-job-title,
 .image-team {
@@ -186,15 +187,15 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--dark-grey-color);
 }
 .image-background {
-  background-color: #f5f4fa;
+  background-color:var(--mud-white-color);
 }
 .image-team-position {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--light-grey-color);
 }
