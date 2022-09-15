@@ -1,10 +1,10 @@
 :root {
-  --white-color: #ffffff; /*цвет основного фона*/
+  --top-line-color: #ffffff; /*цвет основного фона*/
   --blue-color: #2196f3; /*цвет на сайте,кнопка,ссылка*/
   --grey-color: #2f303a; /*цвет фона темно-серый*/
-  --light-grey-color: #757575; /*цвет шрифта серый*/
+  --main-text-color: #757575; /*цвет шрифта серый*/
   --dark-grey-color: #212121; /*цвет шрифта черный-заголовок,описание*/
-  --black-color: #000000; /*цвет текста*/
+  --studio-top-color: #000000; /*цвет текста*/
   --mud-white-color: #f5f4fa;/*image background*/
   --dark-white-color: #f5f5f5;/*body backgroun*/
   --mail-color: rgba(255, 255, 255, 0.6); /* цвет tel,mail*/
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 .title {
-  background-color: var(--white-color);
+  background-color: var(--top-line-color--);
 }
 .Web-header {
   font-family: 'Raleway';
@@ -40,7 +40,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: var(--dark-grey-color);
+  color: var(--studio-top-color);
 }
 
 .navigation-header-link {
@@ -66,7 +66,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--light-grey-color);
+  color: var(--main-text-color);
 }
 .contact-tel:hover,
 .contact-tel:focus {
@@ -84,7 +84,7 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  color:var(--white-color);
+  color:var(--top-line-color);
 }
 .site-footer {
   background: var(--grey-color);
@@ -105,7 +105,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: var(--white-color);
+  color: var(--top-line-color);
 }
 .google-map:hover,
 .google-map:focus {
@@ -117,7 +117,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color:var(--white-color);
+  color:var(--top-line-color);
 }
 
 .contact-email {
@@ -151,7 +151,7 @@ body {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:var(--white-color);
+  color:var(--top-line-color);
 }
 .title-slogan {
   background:var(--grey-color);
@@ -162,7 +162,7 @@ body {
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
-  color: var(--white-color);
+  color: var(--top-line-color);
   background:var(--blue-color);
 }
 .soft-skills-item {
@@ -179,7 +179,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color:var(--light-grey-color);
+  color:var(--main-text-color);
 }
 .image-job-title,
 .image-team {
@@ -197,5 +197,5 @@ body {
   line-height: 1.18;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color:var(--light-grey-color);
+  color:var(--main-text-color);
 }
