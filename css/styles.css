@@ -5,10 +5,9 @@
   --main-text-color: #757575; /*цвет шрифта серый*/
   --dark-grey-color: #212121; /*цвет шрифта черный-заголовок,описание*/
   --studio-top-color: #000000; /*цвет текста*/
-  --mud-white-color: #f5f4fa;/*image background*/
-  --dark-white-color: #f5f5f5;/*body background*/
+  --mud-white-color: #f5f4fa; /*image background*/
+  --dark-white-color: #f5f5f5; /*body background*/
   --mail-color: rgba(255, 255, 255, 0.6); /* цвет tel,mail*/
-
 }
 
 body {
@@ -84,7 +83,7 @@ body {
 }
 .btn:hover,
 .btn:focus {
-  color:var(--top-line-color);
+  color: var(--top-line-color);
 }
 .site-footer {
   background: var(--grey-color);
@@ -96,7 +95,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 .Studio {
   font-family: 'Raleway';
@@ -117,7 +116,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color:var(--top-line-color);
+  color: var(--top-line-color);
 }
 
 .contact-email {
@@ -130,7 +129,7 @@ body {
 }
 .contact-email:hover,
 .contact-email:focus {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 .contact-phone {
   font-style: normal;
@@ -138,11 +137,11 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color:var(--mail-color)
+  color: var(--mail-color);
 }
 .contact-phone:hover,
 .contact-phone:focus {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 .slogan-name {
   font-weight: 900;
@@ -151,30 +150,33 @@ body {
   /* or 136% */
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color:var(--top-line-color);
+  color: var(--top-line-color);
 }
 .title-slogan {
-  background:var(--grey-color);
+  background: var(--grey-color);
 }
-.button-order,
-.active 
-{
-    font-family: 'inherit';
+.button-order {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
+  border-radius: 4px;
   color: var(--top-line-color);
-  background:var(--blue-color);
+  background: var(--blue-color);
 }
+.button-order:hover,
+.button-order:focus {
+  color: var(--top-line-color);
+}
+
 .soft-skills-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color:var(--dark-grey-color);
+  color: var(--dark-grey-color);
 }
 .soft-skills-discription {
   font-weight: 400;
@@ -182,7 +184,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color:var(--main-text-color);
+  color: var(--main-text-color);
 }
 .image-job-title,
 .image-team {
@@ -190,15 +192,15 @@ body {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  color:var(--dark-grey-color);
+  color: var(--dark-grey-color);
 }
 .image-background {
-  background-color:var(--mud-white-color);
+  background-color: var(--mud-white-color);
 }
 .image-team-position {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color:var(--main-text-color);
+  color: var(--main-text-color);
 }
