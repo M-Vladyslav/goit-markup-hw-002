@@ -8,12 +8,29 @@
   --mud-white-color: #f5f4fa; /*image background*/
   --dark-white-color: #f5f5f5; /*body background*/
   --mail-color: rgba(255, 255, 255, 0.6); /* цвет tel,mail*/
+  --button-color: #188ce8; /*кнопка,цвет*/
 }
 
 body {
   font-family: 'Roboto', san-serif;
-  background-color: var(--dark-white-color);
+  background-color: var(--top-line-color);
+  color: var(--main-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .list {
   list-style: none;
 }
@@ -54,12 +71,20 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--blue-color);
+  color: var(--main-text-color);
 }
 .contact-mail:hover,
 .contact-mail:focus {
   color: var(--blue-color);
 }
+.navigation-header-link:hover,
+.navigation-header-link:focus {
+  color: var(--dark-grey-color);
+}
+.current {
+  color: var(--blue-color);
+}
+
 .contact-tel {
   font-weight: 500;
   font-size: 14px;
@@ -71,6 +96,7 @@ body {
 .contact-tel:focus {
   color: var(--blue-color);
 }
+
 .btn {
   font-family: 'inherit';
   font-weight: 500;
@@ -84,6 +110,7 @@ body {
 .btn:hover,
 .btn:focus {
   color: var(--top-line-color);
+  background-color: var(--blue-color);
 }
 .site-footer {
   background: var(--grey-color);
@@ -156,18 +183,21 @@ body {
   background: var(--grey-color);
 }
 .button-order {
+  font-family: 'inherit';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.06em;
   border-radius: 4px;
+  cursor: pointer;
   color: var(--top-line-color);
   background: var(--blue-color);
 }
 .button-order:hover,
 .button-order:focus {
   color: var(--top-line-color);
+  background-color: var(--button-color);
 }
 
 .soft-skills-item {
@@ -197,10 +227,35 @@ body {
 .image-background {
   background-color: var(--mud-white-color);
 }
+.image-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--dark-grey-color);
+}
+
 .image-team-position {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.image-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--dark-grey-color);
+}
+.image-name-discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
