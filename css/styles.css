@@ -14,11 +14,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--top-line-color);
-  color: var(--main-text-color);
+  color: var(--dark-grey-color);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-.image-portfolio,
 .visually-hidden {
   position: absolute;
   width: 1px;
