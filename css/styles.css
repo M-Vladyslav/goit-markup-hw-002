@@ -34,6 +34,7 @@ button {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 4px solid red;
 }
 .html {
   box-sizing: border-box;
@@ -76,7 +77,6 @@ body {
 .main-link {
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 .navigation {
   display: flex;
@@ -86,13 +86,10 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-}
-.navigation-header {
   display: flex;
-}
-
-.navigation-item {
   margin-left: 93px;
+}
+.navigation-item {
   outline: 6px solid tomato;
   display: block;
 }
@@ -101,10 +98,10 @@ body {
 }
 .contact {
   display: flex;
-  margin-left: auto;
+  margin-left: 344px;
 }
-.contact .item + .item {
-  margin: 50px;
+.contact .navigation-list + .navigation-list {
+  margin-left: 50px;
 }
 .contact-item {
   padding-top: 32px;
